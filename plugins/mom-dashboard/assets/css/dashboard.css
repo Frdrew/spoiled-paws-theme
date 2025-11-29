@@ -1,0 +1,22 @@
+.spmd-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.spmd-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #E7D3B5;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 12px;
+}
+
+.spmd-order {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

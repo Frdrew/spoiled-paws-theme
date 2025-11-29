@@ -1,0 +1,26 @@
+.spco-form {
+    max-width: 600px;
+    margin: auto;
+    background: #E7D3B5;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.spco-field {
+    margin-bottom: 20px;
+}
+
+.spco-field label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.spco-submit {
+    padding: 12px 30px;
+    background: #0CA6A6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

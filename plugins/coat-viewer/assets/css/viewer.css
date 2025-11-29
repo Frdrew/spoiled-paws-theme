@@ -1,0 +1,25 @@
+.spcv-container {
+    position: relative;
+    width: 380px;
+    margin: auto;
+}
+
+.spcv-silhouette {
+    width: 100%;
+    opacity: 0.3;
+}
+
+.spcv-view img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 20px;
+    background: #0CA6A6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}

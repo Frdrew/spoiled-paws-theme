@@ -1,0 +1,14 @@
+/*
+Theme Name: Spoiled Paws Desert FSE
+Theme URI: https://example.com
+Author: You
+Description: Full-site-editing theme for Spoiled Paws, using New Mexico desert motif and coat viewer integration.
+Version: 1.0.0
+Text Domain: spoiled-paws
+*/
+
+/* Optional global fallbacks */
+body {
+    background-color: #E7D3B5;
+}
+

@@ -1,0 +1,12 @@
+{
+  "apiVersion": 2,
+  "name": "coat-viewer/block",
+  "title": "Coat Viewer",
+  "category": "widgets",
+  "icon": "visibility",
+  "description": "Interactive coat viewer for dog silhouettes.",
+  "editorScript": "file:./edit.js",
+  "editorStyle": "file:./style.css",
+  "style": "file:./style.css",
+  "script": "file:../../assets/js/rotator.js"
+}
