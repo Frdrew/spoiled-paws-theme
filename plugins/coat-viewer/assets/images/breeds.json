@@ -1,0 +1,9 @@
+{
+    "breeds": [
+        { "label": "Chihuahua", "silhouette": "silhouettes/chihuahua.svg" },
+        { "label": "Pug", "silhouette": "silhouettes/pug.svg" },
+        { "label": "Beagle", "silhouette": "silhouettes/beagle.svg" },
+        { "label": "Bulldog", "silhouette": "silhouettes/bulldog.svg" },
+        { "label": "Labrador", "silhouette": "silhouettes/labrador.svg" }
+    ]
+}

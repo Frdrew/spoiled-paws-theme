@@ -86,26 +86,3 @@ wp_localize_script('spcv-ui-js', 'spcv_config', [
     'manifest_url' => plugins_url('/assets/images/manifest.json', __FILE__),
     'base_url'     => plugins_url('/assets/images/', __FILE__)
 ]);
-wp_enqueue_script(
-    'spcv-breed-js',
-    plugins_url('/assets/js/breed-ui.js', __FILE__),
-    ['jquery'],
-    '1.0',
-    true
-);
-
-wp_localize_script('spcv-breed-js', 'spcv_config', [
-    'breed_manifest' => plugins_url('/assets/images/breeds.json', __FILE__),
-    'base_url'       => plugins_url('/assets/images/', __FILE__)
-]);
-wp_enqueue_script(
-    'spcv-size-js',
-    plugins_url('/assets/js/size-ui.js', __FILE__),
-    ['jquery'],
-    '1.0',
-    true
-);
-
-wp_localize_script('spcv-size-js', 'spcv_config', [
-    'size_scale' => json_decode(file_get_contents(__DIR__ . '/assets/config/size-scale.json'), true),
-]);
