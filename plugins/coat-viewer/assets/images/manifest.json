@@ -1,0 +1,19 @@
+{
+  "coats": [
+    "placeholder/coat-placeholder-01.svg",
+    "placeholder/coat-placeholder-02.svg",
+    "placeholder/coat-placeholder-03.svg",
+    "placeholder/coat-placeholder-04.svg",
+    "placeholder/coat-placeholder-05.svg",
+    "placeholder/coat-placeholder-06.svg",
+    "placeholder/coat-placeholder-07.svg",
+    "placeholder/coat-placeholder-08.svg",
+    "placeholder/coat-placeholder-09.svg",
+    "placeholder/coat-placeholder-10.svg"
+  ],
+  "stitch_lines": [
+    "stitch-lines/stitch-01.svg",
+    "stitch-lines/stitch-02.svg",
+    "stitch-lines/stitch-03.svg"
+  ]
+}

@@ -1,4 +1,4 @@
-<<?php
+<?php
 /**
  * Plugin Name: Spoiled Paws — Coat Viewer
  * Description: Dog coat try-on viewer with silhouettes & coat overlays.
@@ -67,22 +67,3 @@ function spcv_enqueue_frontend_scripts() {
     ]);
 }
 add_action('wp_enqueue_scripts', 'spcv_enqueue_frontend_scripts');
-wp_enqueue_style(
-    'spcv-ui',
-    plugins_url('/assets/css/coat-ui.css', __FILE__),
-    [],
-    '1.0'
-);
-
-wp_enqueue_script(
-    'spcv-ui-js',
-    plugins_url('/assets/js/coat-ui.js', __FILE__),
-    ['jquery'],
-    '1.0',
-    true
-);
-
-wp_localize_script('spcv-ui-js', 'spcv_config', [
-    'manifest_url' => plugins_url('/assets/images/manifest.json', __FILE__),
-    'base_url'     => plugins_url('/assets/images/', __FILE__)
-]);
