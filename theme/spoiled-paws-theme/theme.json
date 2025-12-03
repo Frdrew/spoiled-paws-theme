@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "adobe", "color": "#D28A64", "name": "Adobe Clay" },
+        { "slug": "adobe-dark", "color": "#C26E46", "name": "Adobe Dark" },
+        { "slug": "turquoise", "color": "#0CA6A6", "name": "NM Turquoise" },
+        { "slug": "mesa", "color": "#E7D3B5", "name": "Mesa Sand" },
+        { "slug": "mesa-dark", "color": "#BFA891", "name": "Mesa Dark" },
+        { "slug": "black", "color": "#000000", "name": "Black" },
+        { "slug": "white", "color": "#FFFFFF", "name": "White" }
+      ],
+      "custom": false
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Work Sans\", sans-serif",
+          "name": "Work Sans",
+          "slug": "work-sans"
+        },
+        {
+          "fontFamily": "\"Atkinson Hyperlegible\", sans-serif",
+          "name": "Atkinson Hyperlegible",
+          "slug": "atkinson"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "14px" },
+        { "slug": "medium", "size": "18px" },
+        { "slug": "large", "size": "28px" },
+        { "slug": "xl", "size": "48px" }
+      ]
+    },
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--mesa)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--work-sans)"
+    }
+  }
+}

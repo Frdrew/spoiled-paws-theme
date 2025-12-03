@@ -1,0 +1,29 @@
+/* Smooth fade + motion transitions throughout the theme */
+
+:root {
+    --sp-fade-duration: 0.6s;
+    --sp-fade-ease: cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Fade-in on load */
+.sp-fade-in {
+    opacity: 0;
+    transform: translateY(15px);
+    transition:
+        opacity var(--sp-fade-duration) var(--sp-fade-ease),
+        transform var(--sp-fade-duration) var(--sp-fade-ease);
+}
+
+.sp-fade-in.sp-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Card tilt hover */
+.sp-card-tilt {
+    transition: transform 0.2s ease-out;
+}
+
+.sp-card-tilt:hover {
+    transform: perspective(600px) rotateX(6deg) rotateY(-6deg);
+}
