@@ -2,16 +2,23 @@
 Theme Name: Spoiled Paws Desert FSE
 Theme URI: https://github.com/Frdrew/spoiled-paws-theme
 Author: Spoiled Paws
+Author URI: https://spoiledpawscreations.com
+Description: Full Site Editing theme for Spoiled Paws with coat viewer integration.
 Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-GitHub Theme URI: Frdrew/spoiled-paws-theme
-Primary Branch: main
+GitHub Theme URI: https://github.com/Frdrew/spoiled-paws-theme
+GitHub Branch: main
+GitHub Plugin URI: false
 */
-*/
 
-
-/* Optional global fallbacks */
+/* Optional fallback styling */
 body {
     background-color: #E7D3B5;
 }
+
 
