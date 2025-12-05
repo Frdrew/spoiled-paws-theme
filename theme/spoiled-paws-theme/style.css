@@ -14,8 +14,9 @@ GitHub Theme URI: Frdrew/spoiled-paws-theme
 GitHub Branch: main
 */
 
+/* Optional global fallbacks */
 body {
     background-color: #E7D3B5;
 }
-
+}
 
